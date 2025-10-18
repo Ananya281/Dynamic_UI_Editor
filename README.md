@@ -9,7 +9,6 @@ It allows users to design, preview, and customize layouts, typography, buttons, 
 
 [**Live Project Link**](https://dynamic-ui-editor-1prn.vercel.app/)
 
-
 ---
 
 ## 🚀 Features
