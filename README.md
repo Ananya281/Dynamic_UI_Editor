@@ -1,73 +1,95 @@
-# Welcome to your Lovable project
+# 🎨 Dynamic UI Editor
 
-## Project info
+A powerful **real-time UI customization tool** built with React, TypeScript, and Tailwind CSS.  
+It allows users to design, preview, and customize layouts, typography, buttons, themes, and much more — all inside an interactive editor.
 
-**URL**: https://lovable.dev/projects/95db221e-4098-4b73-8b1b-841ba5edbb43
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- 🛠️ **Real-Time Customization:** Instantly see updates to typography, layout, and design as you edit.
+- 📱 **Responsive Preview:** Toggle between **Desktop**, **Tablet**, and **Mobile** views seamlessly.
+- 🧩 **Configurable Components:** Customize typography, button styles, cards, galleries, and more with full control.
+- 🔄 **Undo / Redo Support:** Safely explore multiple design options without losing previous states.
+- 📤 **Export / Import:** Save your design configuration as JSON and re-import it anytime.
+- 🌈 **Predefined Themes:** Choose from multiple color themes like Ocean Blue, Sunset Glow, Forest Green, Rose Garden, etc.
+- 🧪 **Developer-Friendly:** Structured configuration system for easy scaling and integration.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/95db221e-4098-4b73-8b1b-841ba5edbb43) and start prompting.
+## 🧰 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| 🧩 Component        | 🚀 Technology                      |
+|---------------------|----------------------------------|
+| **Frontend**        | React + TypeScript               |
+| **Styling**         | Tailwind CSS                     |
+| **Bundler**         | Vite                             |
+| **State Mgmt**      | React Context API                |
+| **Icons**           | Lucide React                     |
+| **Utilities**       | Custom `cn()` + EditorContext    |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📁 Project Structure
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```bash
+Dynamic_UI_Editor/
+├─ public/                      # Static assets
+├─ src/
+│  ├─ components/             # Reusable UI components (Pagination, Buttons, etc.)
+│  ├─ contexts/               # EditorContext for configuration & state management
+│  ├─ hooks/                  # Custom React hooks
+│  ├─ lib/                    # Utility functions (e.g., cn(), helpers)
+│  ├─ pages/                  # Editor, Preview, and other pages
+│  ├─ styles/                 # Tailwind base styles and variables
+│  └─ main.tsx               # Application entry point
+├─ package.json
+├─ tsconfig.json
+└─ vite.config.ts
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🧑‍💻 How to Run the Project
+`
+Make sure you have Node.js (v18+) and npm installed before running the commands below.
+`
 
-**Use GitHub Codespaces**
+#### ▶️ Step 1: Build the Docker Image
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+git clone https://github.com/your-username/theme-sculptor-studio.git
+cd theme-sculptor-studio
+```
 
-## What technologies are used for this project?
+#### ▶️ Step 2: Install Dependencies
 
-This project is built with:
+```
+npm install
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
 
-## How can I deploy this project?
+#### ▶️ Step 3: Start Development Server
 
-Simply open [Lovable](https://lovable.dev/projects/95db221e-4098-4b73-8b1b-841ba5edbb43) and click on Share -> Publish.
+```
+npm run dev
 
-## Can I connect a custom domain to my Lovable project?
+```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 🏗️ Build for Production
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+`
+To create an optimized build:
+`
+```
+npm run build
+```
+
+---
+
+`
+```
+npm run preview
+```
