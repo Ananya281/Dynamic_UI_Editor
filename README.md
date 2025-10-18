@@ -66,14 +66,12 @@ cd theme-sculptor-studio
 
 ```
 npm install
-
 ```
 
 #### ▶️ Step 3: Start Development Server
 
 ```
 npm run dev
-
 ```
 
 ---
@@ -87,8 +85,8 @@ To create an optimized build:
 npm run build
 ```
 
----
-
+`
+Preview the production build locally:
 `
 ```
 npm run preview
