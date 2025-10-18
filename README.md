@@ -7,7 +7,8 @@ It allows users to design, preview, and customize layouts, typography, buttons, 
 
 ## 🔗 Live Demo
 
-🚀 Check out the live version here: [**Dynamic UI Editor – Try Now**](https://your-live-demo-link.com)  
+[**Live Project Link**](https://dynamic-ui-editor-1prn.vercel.app/)
+
 
 ---
 
