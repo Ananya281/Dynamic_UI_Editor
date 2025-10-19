@@ -3,10 +3,6 @@
 A powerful **real-time UI customization tool** built with React, TypeScript, and Tailwind CSS.  
 It allows users to design, preview, and customize layouts, typography, buttons, themes, and much more — all inside an interactive editor.
 
----
-
-## 🔗 Live Demo
-
 [**Live Project Link**](https://dynamic-ui-editor-1prn.vercel.app/)
 
 ---
@@ -61,11 +57,13 @@ Dynamic_UI_Editor/
 Make sure you have Node.js (v18+) and npm installed before running the commands below.
 `
 
-#### ▶️ Step 1: Build the Docker Image
+#### ▶️ Step 1: Clone the Repository
 
 ```
-git clone https://github.com/your-username/theme-sculptor-studio.git
-cd theme-sculptor-studio
+git clone https://github.com/Ananya281/Dynamic_UI_Editor.git
+```
+```
+cd Dynamic_UI_Editor
 ```
 
 #### ▶️ Step 2: Install Dependencies
@@ -73,6 +71,9 @@ cd theme-sculptor-studio
 ```
 npm install
 ```
+`
+This will install all required packages for React, TypeScript, Tailwind, and other dependencies.
+`
 
 #### ▶️ Step 3: Start Development Server
 
@@ -82,18 +83,11 @@ npm run dev
 
 ---
 
-## 🏗️ Build for Production
+## 🔮 Future Improvements
 
-`
-To create an optimized build:
-`
-```
-npm run build
-```
+We aim to continuously enhance the **Dynamic UI Editor** to make it more powerful, user-friendly, and production-ready. Planned items:
 
-`
-Preview the production build locally:
-`
-```
-npm run preview
-```
+- 🧱 **Drag-and-Drop UI Builder:** Visual canvas to place and arrange components interactively. 
+- 🎨 **Advanced Theme Customization:** Gradient themes, custom palettes, and brand color import.  
+- 🌓 **Dark Mode Support:** Full dark/light theme toggle across editor and preview.  
+- 🤖 **AI-Powered Suggestions:** Smart recommendations for color palettes, typography, and layouts.  
